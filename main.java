@@ -12,8 +12,14 @@
  *
  * =====================================================================================
  */
+public class main {
 
-int main() {
+    public static void main(String args[]){
 
-    return 0;
+        LibroCalificaciones ejemplo = new LibroCalificaciones(80,"Economía");
+        ejemplo.obtenerMensaje();
+        System.out.println(ejemplo);
+    }
+
+
 }
