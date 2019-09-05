@@ -28,8 +28,8 @@ public class LibroCalificaciones {
         this.nota = nota;
     }
 
-    public void obtenerMensaje(){ // Imprime los datos del curso 
-        System.out.println("El curso "+nombreCurso+" con la nota "+nota+" pertenece al rango "+this.obtenerRangoLetra());
+    public String obtenerMensaje(){ // Imprime los datos del curso 
+        return "El curso "+nombreCurso+" con la nota "+nota+" pertenece al rango "+this.obtenerRangoLetra();
     }
 
     public void setNota(int nota){
